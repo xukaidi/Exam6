@@ -1,0 +1,12 @@
+com\hand\dao\Test.class
+com\hand\entity\Payment.class
+com\hand\entity\Country.class
+com\hand\entity\City.class
+com\hand\dao\HibernateUtil.class
+com\hand\entity\Store.class
+com\hand\entity\Customer.class
+com\hand\entity\Address.class
+com\hand\entity\Dbuser.class
+com\hand\entity\Rental.class
+com\hand\filter\MyInterceptor.class
+com\hand\entity\HibernateSessionFactory.class
