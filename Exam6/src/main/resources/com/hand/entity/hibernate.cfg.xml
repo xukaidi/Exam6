@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sakila</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping resource="com/hand/entity/Rental.hbm.xml" />
+        <mapping resource="com/hand/entity/NicerButSlowerFilmList.hbm.xml" />
+        <mapping resource="com/hand/entity/Category.hbm.xml" />
+        <mapping resource="com/hand/entity/Staff.hbm.xml" />
+        <mapping resource="com/hand/entity/SalesByStore.hbm.xml" />
+        <mapping resource="com/hand/entity/SalesByFilmCategory.hbm.xml" />
+        <mapping resource="com/hand/entity/Actor.hbm.xml" />
+        <mapping resource="com/hand/entity/Address.hbm.xml" />
+        <mapping resource="com/hand/entity/Payment.hbm.xml" />
+        <mapping resource="com/hand/entity/Film.hbm.xml" />
+        <mapping resource="com/hand/entity/FilmList.hbm.xml" />
+        <mapping resource="com/hand/entity/ActorInfo.hbm.xml" />
+        <mapping resource="com/hand/entity/Customer.hbm.xml" />
+        <mapping resource="com/hand/entity/City.hbm.xml" />
+        <mapping resource="com/hand/entity/Language.hbm.xml" />
+        <mapping resource="com/hand/entity/StaffList.hbm.xml" />
+        <mapping resource="com/hand/entity/FilmText.hbm.xml" />
+        <mapping resource="com/hand/entity/Country.hbm.xml" />
+        <mapping resource="com/hand/entity/CustomerList.hbm.xml" />
+        <mapping resource="com/hand/entity/Inventory.hbm.xml" />
+        <mapping resource="com/hand/entity/FilmCategory.hbm.xml" />
+        <mapping resource="com/hand/entity/Store.hbm.xml" />
+        <mapping resource="com/hand/entity/FilmActor.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>
